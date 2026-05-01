@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Nuget">
+    <Description>C# SDK for Amazon Bedrock OpenAI-compatible APIs, including Models, Responses, and Chat Completions.</Description>
+    <PackageTags>api;client;sdk;dotnet;openapi;aws;amazon-bedrock;bedrock;llm;ai;chat-completion;responses</PackageTags>
+  </PropertyGroup>
+
+</Project>
