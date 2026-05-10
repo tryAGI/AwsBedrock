@@ -122,5 +122,6 @@ namespace AwsBedrock
         public ChatCompletionRequest()
         {
         }
+
     }
 }

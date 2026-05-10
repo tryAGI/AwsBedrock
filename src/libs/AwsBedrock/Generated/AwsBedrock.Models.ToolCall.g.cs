@@ -57,5 +57,6 @@ namespace AwsBedrock
         public ToolCall()
         {
         }
+
     }
 }

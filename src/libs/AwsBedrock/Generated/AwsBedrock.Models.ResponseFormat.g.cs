@@ -39,5 +39,6 @@ namespace AwsBedrock
         public ResponseFormat()
         {
         }
+
     }
 }
