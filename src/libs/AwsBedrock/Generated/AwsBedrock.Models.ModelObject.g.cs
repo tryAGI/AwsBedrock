@@ -66,5 +66,6 @@ namespace AwsBedrock
         public ModelObject()
         {
         }
+
     }
 }
