@@ -4,24 +4,24 @@
 namespace AwsBedrock
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class ToolCall
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("id")]
         public string? Id { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("type")]
         public string? Type { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("function")]
         public global::AwsBedrock.FunctionCall? Function { get; set; }

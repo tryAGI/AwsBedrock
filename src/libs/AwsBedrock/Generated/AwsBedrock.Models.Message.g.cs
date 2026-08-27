@@ -4,32 +4,32 @@
 namespace AwsBedrock
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class Message
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("role")]
         [global::System.Text.Json.Serialization.JsonRequired]
         public required string Role { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("content")]
         [global::System.Text.Json.Serialization.JsonConverter(typeof(global::AwsBedrock.JsonConverters.OneOfJsonConverter<string, global::System.Collections.Generic.IList<global::AwsBedrock.ContentPart>>))]
         public global::AwsBedrock.OneOf<string, global::System.Collections.Generic.IList<global::AwsBedrock.ContentPart>>? Content { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tool_call_id")]
         public string? ToolCallId { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// </summary>
         [global::System.Text.Json.Serialization.JsonPropertyName("tool_calls")]
         public global::System.Collections.Generic.IList<global::AwsBedrock.ToolCall>? ToolCalls { get; set; }

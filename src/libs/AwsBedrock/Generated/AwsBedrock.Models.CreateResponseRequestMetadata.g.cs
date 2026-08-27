@@ -4,7 +4,7 @@
 namespace AwsBedrock
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public sealed partial class CreateResponseRequestMetadata
     {
